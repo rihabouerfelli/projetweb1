@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charslt="utf-8">
+<title> Receiver </title>
+<link rel="stylesheet" href="style.css">
+<header>
+Please provide further information in case of selection of the CV 
+</header>
+        <section id="pageContent">
+            
+            <form action="#" method="post">
+                <table align="center">
+                    <tr>
+                        <td>
+                            <label for="fname">First Name <span>*</span></label>
+                        </td>
+                        <td>
+                            <input
+                                type="text"
+                                id="fname"
+                                name="fname"
+                                minlength="3"
+                                required
+                            />
+                        </td>
+						<td></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lname">Last Name</label></td>
+                        <td>
+                            <input
+                                type="text"
+                                id="lname"
+                                name="lname"
+                                minlength="3"
+                            />
+                        </td>
+						<td></td>
+                    </tr>
+            
+					<tr>
+                        <td><label for="type"> Job contract type <span>*</span> </label></td>
+                        <td>
+                            <select name="type" required >
+							<option value="ca">Casual</option>
+							<option value="ze">Zero hours</option>
+							<option value="tem">Temporary contract</option>
+							</select>
+							
+                        </td>
+						<td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="sal"
+                                >Salary <span>*</span></label
+                            >
+                        </td>
+                        <td>
+                            <input
+                                type="number"
+                                id="sal"
+                                name="sal"
+                                minlength="4"
+                                required
+                            />
+                        </td>
+						<td></td>
+						</tr>
+						<tr>
+						<td><label> Salary : </label></td>
+						<td>
+                            <label><input type="radio" name="ng" value"neg" > Negotiable</label>
+						</td>
+						<td>
+							<label><input type="radio" name="non" value"nneg">Non-Negotiable</label>
+							
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="dob">Date of interview <span>*</span></label></td>
+                        <td>
+                            <input type="date" id="dob" name="dob" required />
+                        </td>
+						<td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email<span>*</span></label>
+                        </td>
+                        <td>
+                            <input
+                                type="email"
+                                name="email"
+                                id="email"
+                                required
+                            />
+                        </td>
+						<td></td>
+                    </tr>
+					    <td>
+                        <label>Time  of interveiw <span>*</span></label>
+						</td>
+                        <td><input type="time" min="10:00" max="16:00" required >
+						</td>
+						<td></td>
+                    </tr>
+					<tr>
+					<td> <label for="benif">Perks and benifits : </label></td>
+                        <td><label> <input type="checkbox" name="perk" value="Health insurance" >
+						Health insurance
+						</label></td>
+						<td><label> <input type="checkbox" name="per" value="Paid time off">
+						Paid time off
+						</label></td>
+                    </tr>
+					<tr>
+                        <td><label for="comment"> Comment :</label></td>
+                        <td>
+                            <textarea
+                                name="Comment"
+                                id="Comment"
+                                cols="35"
+                                rows="6"
+						
+                            ></textarea>
+                        </td>
+						<td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <button type="submit">Submit</button>
+                            <button type="reset">Reset</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </section>
+<footer>
+<hr>
+<table width="100%">
+<tr>
+<td align="left">
+<p>&copy; 2023 Rihab Ouerfelli . All rights reserved.</p>
+</td>
+<td align="right">
+<a href="index.html"> Home page </a>
+</td>
+</tr>
+</table>
+<script src="scriipt.js"></script>
+</body>
+</html>
